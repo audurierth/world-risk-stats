@@ -1,0 +1,68 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.5",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "10fb00c6b105f37f907061dbb4757ebb",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "name 'renamed_data' is parameter and global (data_preparation.py, line 31)",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_249567/__marimo__cell_Hbol_.py&quot;</span>, line <span class=\"m\">2</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"kn\">import</span><span class=\"w\"> </span><span class=\"nn\">data_preparation</span>\n  File <span class=\"nb\">&quot;/home/theoa/Documents/Dev/Cours/Visualisation/Projet/world-risk-stats/data_preparation.py&quot;</span>, line <span class=\"m\">31</span>\n<span class=\"w\">    </span><span class=\"k\">global</span> <span class=\"n\">renamed_data</span>\n<span class=\"w\">    </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^</span>\n<span class=\"gr\">SyntaxError</span>: <span class=\"n\">name &#39;renamed_data&#39; is parameter and global</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "54be810cf6f26f18d2f9d55dacbb6570",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"analysis-on-prior-cleaned-data\">Analysis on prior cleaned data</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "42383498f959911f5c38003fac533ec4",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "module 'data_preparation' has no attribute 'renamed_data'",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_249069/__marimo__cell_vblA_.py&quot;</span>, line <span class=\"m\">2</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">renamed_data</span> <span class=\"o\">=</span> <span class=\"n\">data_preparation</span><span class=\"o\">.</span><span class=\"n\">renamed_data</span>\n<span class=\"w\">                   </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n<span class=\"gr\">AttributeError</span>: <span class=\"n\">module &#39;data_preparation&#39; has no attribute &#39;renamed_data&#39;</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "44fbb9e3c467cd34b15276d45fa41170",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
